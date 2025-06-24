@@ -1,14 +1,23 @@
-body {
-  background-image: url(.img/nen2.jpg);
-  font-family: Arial, sans-serif;
-  /* background-color: #f0f0f0; */
-  color: black;
+header {
+  background-image: url(".img/nen2.jpg"); /* Hình nền cho header */
+  background-size: cover; /* Đảm bảo hình ảnh phủ toàn bộ header */
+  background-repeat: no-repeat; /* Không lặp hình ảnh */
+  background-position: center; /* Căn giữa hình ảnh */
+  height: 300px; /* Chiều cao của header */
+  display: flex;
+  justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+  align-items: center; /* Căn giữa nội dung theo chiều dọc */
 }
 
-h1 {
-  color: #ff5722;
+header h1 {
+  color: antiquewhite;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
 }
 
 p {
