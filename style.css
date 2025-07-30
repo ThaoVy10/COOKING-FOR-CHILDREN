@@ -39,6 +39,24 @@ footer {
   background-color: rgb(236, 231, 231);
   text-decoration: underline;
 }
+.GT {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.Khoi0 {
+  background-color: rgb(236, 231, 231);
+  height: 30px;
+}
+.Khoi1 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+body .Nguon {
+  color: blue;
+}
+body .Nguon:hover {
+  color: blueviolet;
+}
 footer a {
   color: blue;
   padding: 3px;
